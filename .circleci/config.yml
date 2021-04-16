@@ -1,0 +1,18 @@
+version: 2
+jobs:
+build:
+    docker:
+    - image: mrc.microsoft.com/dotnet/core/sdk:3.1
+    steps:
+    -checkout
+    - run: Restore packages
+    command:
+    dotnet restore
+    - run:
+    name: Build App
+    command: 
+    dotnet build
+     - run:
+     name: Run App
+     command: 
+     dotnet run
