@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Name": "LAUNDRY"
+  },
+  {
+    "Id": 2,
+    "Name": "IRONING"
+  },
+  {
+    "Id": 3,
+    "Name": "BLANKETS"
+  },
+  {
+    "Id": 4,
+    "Name": "DRY CLEANING"
+  },
+  {
+    "Id": 5,
+    "Name": "SHOE CLEANING & REPAIRS"
+  }
+  
+]
